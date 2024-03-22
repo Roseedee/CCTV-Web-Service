@@ -1,3 +1,6 @@
 # CCTV Web Service
-Enter this script on terminal for run project<br>
+Install package<br>
+```npm install```
+
+Run project<br>
 ```npm run dev```
