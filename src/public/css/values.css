@@ -1,0 +1,9 @@
+:root {
+    /* content */
+    --content-width: 70%;
+    --content-width-sm: 100%;
+
+    /* header */
+    --header-height: 70px;
+    --header-side-width: 30%;
+}
