@@ -10,11 +10,27 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    {{> headerPartials }}
+    {{!-- {{> headerPartials }} --}}
+    <header>
+        <div class="header-content">
+            <div class="header-col">
+                <a href="/"><img src="images/logo-sm.png" class="logo-img" alt="logo"></a>
+            </div>
+            <div class="header-col">
+                <h1>CCTV Web Service</h1>
+            </div>
+            <div class="header-col">
+                <a href="/login">
+                    <div class="login-bth">R</div>
+                </a>
+            </div>
+        </div>
+    </header>
     <div class="header-offset"></div>
+    
     <form  class="container" action="/login" method="post">
         <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="username" required   _
+        <input type="text" placeholder="Enter Username" name="username" required>
         <label for="psw"><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="password" required>
             
@@ -22,11 +38,6 @@
         <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
         </label>
-
-        {{!-- <div class="container" style="background-color:#f1f1f1">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-        </div> --}}
     </form>
 
     {{> footerPartials }}

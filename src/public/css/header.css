@@ -7,9 +7,9 @@ header {
     justify-content: center;
     position: fixed;
     /* glass affect */
-    background: rgba(168, 126, 235, 0.356);
+    background: rgba(168, 126, 235, 0.4);
     box-shadow: 5px 4px 30px rgba(0, 0, 0, 0.12);
-    backdrop-filter: blur(6.5px);
+    backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(6.5px);
     border-bottom: 1px solid rgb(168, 165, 212);
 }
