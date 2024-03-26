@@ -9,9 +9,17 @@
 body {
     width: 100%;
     height: 5000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header-offset {
     width: 100%;
     height: var(--header-height);
+}
+
+.icon {
+    width: 16px;
+    padding-right: 5px;
 }
