@@ -13,7 +13,7 @@ app.set('view engine', 'hbs');
 hbs.registerPartials(__dirname + '/views/partials');
 
 //static file
-app.use(express.static('public'));
+app.use(express.static('static'));
 
 app.use(router)
 
